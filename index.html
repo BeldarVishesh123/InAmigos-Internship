@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InAmigos Foundation</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#f5f7fa;
+            color:#333;
+            line-height:1.6;
+        }
+
+        header{
+            background:linear-gradient(to right,#0f172a,#1e3a8a);
+            color:white;
+            padding:60px 20px;
+            text-align:center;
+        }
+
+        header h1{
+            font-size:48px;
+            margin-bottom:15px;
+        }
+
+        header p{
+            font-size:18px;
+            max-width:800px;
+            margin:auto;
+        }
+
+        nav{
+            background:#111827;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:#38bdf8;
+        }
+
+        section{
+            padding:60px 10%;
+        }
+
+        .section-title{
+            text-align:center;
+            margin-bottom:40px;
+            font-size:36px;
+            color:#1e3a8a;
+        }
+
+        .about{
+            display:flex;
+            gap:40px;
+            align-items:center;
+            flex-wrap:wrap;
+        }
+
+        .about img{
+            width:450px;
+            border-radius:15px;
+        }
+
+        .about-text{
+            flex:1;
+        }
+
+        .projects{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+        }
+
+        .card{
+            background:white;
+            padding:25px;
+            border-radius:15px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.1);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-8px);
+        }
+
+        .card h3{
+            color:#1d4ed8;
+            margin-bottom:15px;
+        }
+
+        .impact{
+            background:#dbeafe;
+            text-align:center;
+            border-radius:20px;
+            padding:50px;
+        }
+
+        .impact h2{
+            margin-bottom:20px;
+            color:#1e3a8a;
+        }
+
+        .gallery{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:20px;
+        }
+
+        .gallery img{
+            width:100%;
+            border-radius:15px;
+            height:220px;
+            object-fit:cover;
+        }
+
+        .cta{
+            background:#1e3a8a;
+            color:white;
+            text-align:center;
+            padding:70px 20px;
+        }
+
+        .cta h2{
+            font-size:40px;
+            margin-bottom:20px;
+        }
+
+        .cta button{
+            padding:15px 35px;
+            border:none;
+            background:#38bdf8;
+            color:white;
+            font-size:18px;
+            border-radius:8px;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        .cta button:hover{
+            background:#0ea5e9;
+        }
+
+        footer{
+            background:#111827;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>InAmigos Foundation</h1>
+        <p>
+            Uniting Minds for Change. InAmigos Foundation is a non-profit organization
+            working towards education, women empowerment, animal welfare,
+            environmental sustainability, and community development.
+        </p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#impact">Impact</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#join">Join Us</a>
+    </nav>
+
+    <section id="about">
+
+        <h2 class="section-title">About the NGO</h2>
+
+        <div class="about">
+
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="NGO">
+
+            <div class="about-text">
+
+                <p>
+                    InAmigos Foundation was founded in 2020 with the vision of creating
+                    a better and more inclusive society. The organization works across
+                    India through various social initiatives and volunteer programs.
+                </p>
+
+                <br>
+
+                <p>
+                    The NGO focuses on helping underprivileged communities through
+                    food distribution, education support, women empowerment,
+                    environmental campaigns, and animal welfare projects.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="projects">
+
+        <h2 class="section-title">Ongoing Projects</h2>
+
+        <div class="projects">
+
+            <div class="card">
+                <h3>Project SEVA</h3>
+                <p>
+                    Distribution of food and clothes to underprivileged families
+                    and people in need.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Project BachpanShala</h3>
+                <p>
+                    Providing education support and digital literacy for children
+                    from poor communities.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Project Udaan</h3>
+                <p>
+                    Empowering women through skill development and financial independence.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Project Jeev</h3>
+                <p>
+                    Animal welfare initiative focused on feeding and protecting stray animals.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Project Prakriti</h3>
+                <p>
+                    Environmental conservation through tree plantation and awareness campaigns.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Project Vikas</h3>
+                <p>
+                    Internship and skill development programs for students and youth.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="impact">
+
+        <div class="impact">
+
+            <h2>Social Impact</h2>
+
+            <p>
+                InAmigos Foundation has impacted thousands of lives through
+                education support, food distribution drives, women empowerment,
+                environmental awareness campaigns, and animal welfare activities.
+            </p>
+
+            <br>
+
+            <p>
+                The NGO has distributed meals and clothes, planted thousands
+                of trees, and provided opportunities for students through internships
+                and skill development initiatives.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section id="gallery">
+
+        <h2 class="section-title">Gallery</h2>
+
+        <div class="gallery">
+
+            <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c" alt="Education">
+
+            <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846" alt="Food Distribution">
+
+            <img src="https://images.unsplash.com/photo-1529390079861-591de354faf5" alt="Women Empowerment">
+
+            <img src="https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2" alt="Environment">
+
+        </div>
+
+    </section>
+
+    <section class="cta" id="join">
+
+        <h2>Be the Change</h2>
+
+        <p>
+            Join InAmigos Foundation as a volunteer and help create a better future.
+        </p>
+
+        <br>
+
+        <button>Join Us</button>
+
+    </section>
+
+    <footer>
+
+        <p>
+            © 2026 InAmigos Foundation | Designed for NGO Awareness Task
+        </p>
+
+    </footer>
+
+</body>
+</html>
